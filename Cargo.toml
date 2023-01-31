@@ -1,0 +1,17 @@
+[package]
+name = "register-count"
+version = "0.1.0"
+authors = ["EAimTY <ea.imty@gmail.com>"]
+description = "Counting `Register`s created by a `Counter`"
+categories = ["asynchronous", "no-std"]
+keywords = ["asynchronous", "counter", "register"]
+edition = "2021"
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/EAimTY/register-count"
+
+[features]
+default = ["std"]
+std = []
+
+[dependencies]
